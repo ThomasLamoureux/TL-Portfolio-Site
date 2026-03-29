@@ -1,0 +1,52 @@
+{
+    "title": "Image Breaker",
+    "tools": [
+        "Roblox Studio",
+        "Lua"
+    ],
+    "additionalFields": {
+        "Roles": [
+            "Team Lead",
+            "Lead Programmer"
+        ],
+        "Team Members": [
+            "xReniez - Programmer",
+            "MemeIsMyDream - Builder"
+        ]
+    },
+    "links": [
+        [
+            "Game",
+            "https://www.roblox.com/games/79145354709434/Image-Breaker"
+        ]
+    ],
+    "section": "cs",
+    "thumbnail": "resources/ImageBreaker.png",
+    "descriptions": "Image Breaker was made for the 2025 Roblox Developer Challenge. Made by myself and 2 additional team members within the 72 hour time frame provided.",
+    "showcase": [
+        {
+            "title": "Main Menu",
+            "description": "The main menu of the game, personally I think this goes hard",
+            "image": "resources/ImageBreakerShowcase/ImageBreakerMenu.png",
+            "crop": true
+        },
+        {
+            "title": "Gameplay",
+            "description": "Gameplay",
+            "image": "resources/ImageBreakerShowcase/ImageBreakerGameplay.png",
+            "crop": true
+        },
+        {
+            "title": "Golem Boss",
+            "description": "The first boss encountered, a giant golem made of stone",
+            "image": "resources/ImageBreakerShowcase/ImageBreakerGolem.png",
+            "crop": true
+        },
+        {
+            "title": "The Admin",
+            "description": "The final boss, the Admin in charge of monitoring the \u0027subjects\u0027",
+            "image": "resources/ImageBreakerShowcase/ImageBreakerAdmin.png",
+            "crop": true
+        }
+    ]
+}

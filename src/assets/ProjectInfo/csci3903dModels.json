@@ -1,0 +1,80 @@
+{
+	"title": "CSCI 390 3D Models",
+	"tools": [
+		"Blender"
+	],
+	"additionalFields": {
+	},
+	"links": [],
+	"section": "da",
+	"thumbnail": "CSCI390Showcase/PalmCourt_1.png",
+	"descriptions": "A collection of the 3D models I created for CSCI 390, an immersive experience at Stetson University where we developed a game for Steam.",
+	"showcase": [
+		{
+			"title": "Palm Court Hub",
+			"description": "The game's hub, based off Stetson's Palm Court.",
+			"image": "CSCI390Showcase/PalmCourt_1.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "CSCI390Showcase/PalmCourt_2.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "CSCI390Showcase/PalmCourt_3.png",
+			"crop": false
+		},
+		{
+			"title": "Trash Panda",
+			"description": "A character model from the game.",
+			"image": "CSCI390Showcase/TrashPanda_1.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "CSCI390Showcase/TrashPanda_2.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "CSCI390Showcase/TrashPanda_3.png",
+			"crop": false
+		},
+		{
+			"title": "Concept Art",
+			"description": "By Bridget Wexler",
+			"image": "CSCI390Showcase/TrashPanda_Reference.png",
+			"crop": false
+		},
+		{
+			"title": "Roxer Robbie Roo",
+			"description": "A character model from the game.",
+			"image": "CSCI390Showcase/RoxerRobbieRoo_1.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "CSCI390Showcase/RoxerRobbieRoo_2.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "CSCI390Showcase/RoxerRobbieRoo_3.png",
+			"crop": false
+		},
+		{
+			"title": "Concept Art",
+			"description": "By Kelly Cameron",
+			"image": "CSCI390Showcase/RoxerRobbieRoo_Reference.png",
+			"crop": false
+		}
+	]
+}

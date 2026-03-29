@@ -1,0 +1,52 @@
+{
+    "title":  "Atoran",
+    "tools":  [
+                  "Java",
+                  "Eclipse"
+              ],
+    "additionalFields":  {
+                             "Roles":  [
+                                           "Programmer",
+                                           "Team Lead"
+                                       ],
+                             "Team Members":  [
+                                                  "Luke Alley - Programmer",
+                                                  "Bridget Wexler - Programmer, Artist",
+                                                  "Temirlan Stamakunov - Programmer"
+                                              ]
+                         },
+    "links":  [
+                  [
+                      "GitHub",
+                      "https://github.com/ThomasLamoureux/CSCI-142-Project"
+                  ],
+                  [
+                      "Gameplay",
+                      "https://www.youtube.com/watch?v=yJrIG43YNDs"
+                  ]
+              ],
+    "background":  "resources/AtoranMenu.png",
+    "descriptions":  "Project Atoran is a story driven, turn-based combat rpg coded entirely in Java with no external game engines. This project was created in 6 weeks by a team of 4 for CSCI 142 at Stetson University",
+    "showcase":  [
+                     {
+                         "title":  "Sigma Studios",
+                         "description":  "Sigma Studios was our small development studio created for our class",
+                         "image":  "resources/AtoranShowcase/AtoranStudioLogo.png"
+                     },
+                     {
+                         "title":  "Gameplay",
+                         "description":  "Gameplay",
+                         "image":  "resources/AtoranShowcase/AtoranGameplay.png"
+                     },
+                     {
+                         "title":  "Dragon Encounter",
+                         "description":  "The second boss encountered during the story",
+                         "image":  "resources/AtoranShowcase/AtoranDragon.png"
+                     },
+                     {
+                         "title":  "Somaht",
+                         "description":  "The terrible Somaht, the game\u0027s main antagonist and final boss",
+                         "image":  "resources/AtoranShowcase/AtoranBoss.png"
+                     }
+                 ]
+}

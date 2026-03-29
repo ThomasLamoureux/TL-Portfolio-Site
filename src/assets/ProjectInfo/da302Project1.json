@@ -1,0 +1,109 @@
+{
+	"title": "Digital Arts 302 Project 1",
+	"tools": [
+		"Blender"
+	],
+	"additionalFields": {},
+	"links": [],
+	"section": "da",
+	"thumbnail": "DA302Project1Showcase/Thumbnail.jpg",
+	"descriptions": "My submission for project 1 in Digital Arts 302 at Stetson University.\nCreated in Blender, rendered with a custom-built toon shader.",
+	"showcase": [
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Render_1.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Render_2.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Render_3.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Render_4.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Render_5.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Render_6.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Render_7.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Render_8.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Wireframe_1.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Wireframe_2.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Wireframe_3.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Wireframe_4.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Wireframe_5.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Wireframe_6.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Wireframe_7.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "DA302Project1Showcase/Wireframe_8.png",
+			"crop": false
+		}
+	]
+}

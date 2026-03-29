@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #0b0b1d center / cover fixed no-repeat;
+  background-image: linear-gradient(rgba(11, 11, 29, 0.2), rgba(11, 11, 29, 0.2)), url('./assets/ProjectResources/WebsiteBackground.png');
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}

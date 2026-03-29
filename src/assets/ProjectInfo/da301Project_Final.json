@@ -1,0 +1,44 @@
+{
+	"title": "Digital Arts 301 Final Project",
+	"tools": [
+		"Blender",
+		"Maya"
+	],
+	"additionalFields": {},
+	"links": [],
+	"section": "da",
+	"thumbnail": "TennisCourts/TennisCourts_1.png",
+	"descriptions": "My submission for the final project in Digital Arts 301 at Stetson University.",
+	"showcase": [
+		{
+			"title": "",
+			"description": "",
+			"image": "TennisCourts/TennisCourts_1.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "TennisCourts/TennisCourts_2.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "TennisCourts/TennisCourts_3.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "TennisCourts/TennisCourts_4.png",
+			"crop": false
+		},
+		{
+			"title": "",
+			"description": "",
+			"image": "TennisCourts/TennisCourts_5.png",
+			"crop": false
+		}
+	]
+}

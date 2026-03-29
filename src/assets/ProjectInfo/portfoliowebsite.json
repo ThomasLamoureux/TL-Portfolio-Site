@@ -1,0 +1,20 @@
+{
+    "title": "Portfolio Site",
+    "tools": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
+        "VSCode"
+    ],
+    "additionalFields": {},
+    "links": [
+        [
+            "GitHub",
+            "https://github.com/ThomasLamoureux/PortFolioWebsite"
+        ]
+    ],
+    "section": "cs",
+    "thumbnail": "resources/PortfolioWebsite.png",
+    "descriptions": "Portfolio website for myself, created by myself. Originally developed with vanilla HTML and CSS, redesigned with React."
+}

@@ -1,0 +1,24 @@
+{
+    "title":  "Portfolio Site",
+    "tools":  [
+                  "HTML",
+                  "CSS",
+                  "VSCode"
+              ],
+    "additionalFields":  {
+                             "Roles":  [
+                                           "Developer"
+                                       ],
+                             "Team Members":  [
+                                                  "Solo Project"
+                                              ]
+                         },
+    "links":  [
+                  [
+                      "GitHub",
+                      "https://github.com/ThomasLamoureux/PortFolioWebsite"
+                  ]
+              ],
+    "background":  "resources/PortfolioWebsite.png",
+    "descriptions":  "A portfolio website created for myself from scratch using only HTML and CSS"
+}
