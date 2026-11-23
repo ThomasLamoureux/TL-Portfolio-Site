@@ -1,0 +1,50 @@
+{
+    "title": "Senior Project: Echo",
+    "section": "da",
+    "featured": true,
+    "tools": [
+        "Unity",
+        "Blender",
+        "ChatGPT"
+    ],
+    "additionalFields": {
+        "Roles": [
+            "Programmer",
+            "3D Artist",
+            "3D Animator"
+        ],
+        "Team Members": [
+            {
+                "name": "Raelan Chisolm",
+                "role": "Composer and Musical Artist",
+                "url": "https://www.linkedin.com/in/raelanchisolm/"
+            }
+        ]
+    },
+    "thumbnail": "resources/SeniorProjectEchoShowcase/Gameplay.png",
+    "descriptions": "Project Echo is a turn based combat game inspired by JRPGs and Gacha games, notable Honkai: Star Rail. This project was created during the 2026 Fall semester for my Senior Project at Stetson University.",
+    "showcase": [
+        {
+            "title": "Gameplay",
+            "image": "resources/SeniorProjectEchoShowcase/Gameplay.png",
+            "crop": false
+        },
+        {
+            "title": "Project Poster",
+            "image": "resources/SeniorProjectEchoShowcase/Echo_Poster.png",
+            "crop": false
+        },
+        {
+            "title": "Echo",
+            "description": "The main character of the game.",
+            "image": "resources/SeniorProjectEchoShowcase/Echo.png",
+            "crop": false
+        },
+        {
+            "title": "Kana",
+            "description": "The main character's companion.",
+            "image": "resources/SeniorProjectEchoShowcase/Kana.png",
+            "crop": false
+        }
+    ]
+}

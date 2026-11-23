@@ -591,6 +591,10 @@ a:hover {
   margin-bottom: 14px;
 }
 
+.additional_value a {
+  color: #b9c4ff;
+}
+
 .detail_links_wrap {
   margin-top: 18px;
 }

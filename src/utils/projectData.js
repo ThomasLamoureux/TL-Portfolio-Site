@@ -7,6 +7,7 @@ const toolsIconsMap = {
   CSS: 'simple-icons:css',
   VSCode: 'simple-icons:visualstudiocode',
   Blender: 'simple-icons:blender',
+  ChatGPT: 'simple-icons:openai',
   Maya: 'simple-icons:autodeskmaya',
 }
 
@@ -19,6 +20,8 @@ const toolIconColorsMap = {
   CSS: '#1572B6',
   VSCode: '#007ACC',
   Blender: '#E87D0D',
+  ChatGPT: '#FFFFFF',
+  Unity: '#FFFFFF',
   Maya: '#37A5CC',
 }
 
@@ -130,5 +133,7 @@ export function getAllProjects() {
 }
 
 export function getProjectsBySection(section) {
-  return getAllProjects().filter(({ projectData }) => projectData.section === section)
+  return getAllProjects()
+    .filter(({ projectData }) => projectData.section === section)
+    .sort((a, b) => Number(b.projectData.featured === true) - Number(a.projectData.featured === true))
 }

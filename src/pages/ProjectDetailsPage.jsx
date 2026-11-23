@@ -23,7 +23,10 @@ function ProjectDetailsPage() {
   const additionalFields = projectData.additionalFields && typeof projectData.additionalFields === 'object'
     ? Object.entries(projectData.additionalFields).filter(([, values]) => Array.isArray(values) && values.length > 0)
     : []
-  const infoPanels = [{ title: 'Tools', values: tools, isTools: true }, ...additionalFields.map(([title, values]) => ({ title, values, isTools: false }))]
+  const infoPanels = [
+    { title: 'Tools', values: tools, isTools: true },
+    ...additionalFields.map(([title, values]) => ({ title, values, isTools: false })),
+  ].filter(({ values }) => values.length > 0)
   const showcase = Array.isArray(projectData.showcase) ? projectData.showcase : []
   const showcaseEntries = showcase.map((item, index) => ({ item, index }))
   const leftShowcase = showcaseEntries.filter(({ index }) => index % 2 === 0)
@@ -53,29 +56,38 @@ function ProjectDetailsPage() {
             <p className="project_title">{projectData.title}</p>
             <p className="project_description">{projectData.descriptions}</p>
 
-            <div className="roles_software_members section_frame roles_frame">
-              {infoPanels.map((panel, panelIndex) => (
-                <div key={panel.title} className={`role_panel${panelIndex < infoPanels.length - 1 ? ' panel_divider' : ''}`}>
-                  <h2>{panel.title}</h2>
-                  {panel.isTools ? (
-                    panel.values.map((tool) => (
-                      <p key={tool}>
-                        <span className="used_skill_chip tool_line_chip" data-tooltip={tool}>
-                          <Icon icon={getToolIconId(tool)} className="tool_line_icon" style={{ color: getToolIconColor(tool) }} aria-hidden="true" />
-                        </span>
-                        {tool}
-                      </p>
-                    ))
-                  ) : (
-                    <div className="additional_field_values">
-                      {panel.values.map((value, valueIndex) => (
-                        <span key={`${panel.title}-${valueIndex}`} className="additional_value">{value}</span>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
+            {infoPanels.length > 0 && (
+              <div className="roles_software_members section_frame roles_frame">
+                {infoPanels.map((panel, panelIndex) => (
+                  <div key={panel.title} className={`role_panel${panelIndex < infoPanels.length - 1 ? ' panel_divider' : ''}`}>
+                    <h2>{panel.title}</h2>
+                    {panel.isTools ? (
+                      panel.values.map((tool) => (
+                        <p key={tool}>
+                          <span className="used_skill_chip tool_line_chip" data-tooltip={tool}>
+                            <Icon icon={getToolIconId(tool)} className="tool_line_icon" style={{ color: getToolIconColor(tool) }} aria-hidden="true" />
+                          </span>
+                          {tool}
+                        </p>
+                      ))
+                    ) : (
+                      <div className="additional_field_values">
+                        {panel.values.map((value, valueIndex) => (
+                          <span key={`${panel.title}-${valueIndex}`} className="additional_value">
+                            {typeof value === 'string' ? value : (
+                              <>
+                                <a href={value.url} target="_blank" rel="noreferrer">{value.name}</a>
+                                {' - '}{value.role}
+                              </>
+                            )}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
 
             <div className="project_links_wrap detail_links_wrap">
               {links.map(([label, url]) => (

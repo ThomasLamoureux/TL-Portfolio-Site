@@ -186,7 +186,7 @@ function HomePage() {
           <button type="button" className="page_linker_00" onClick={() => scrollToSection('contact_info')}>
             Contact
           </button>
-          <button type="button" className="page_linker_00" onClick={() => scrollToSection('projects')}>
+          <button type="button" className="page_linker_00" onClick={() => scrollToSection('digital_arts_projects')}>
             Projects
           </button>
           <button type="button" className="page_linker_00" onClick={() => scrollToSection('about')}>
@@ -222,16 +222,16 @@ function HomePage() {
         </div>
       </section>
 
-      <header id="projects">Computer Science Projects</header>
+      <header id="digital_arts_projects">Digital Arts Projects</header>
       <section className="projects section_frame" aria-live="polite">
-        {computerScienceProjects.map(({ projectId, projectData }) => (
+        {digitalArtProjects.map(({ projectId, projectData }) => (
           <ProjectCard key={projectId} projectId={projectId} projectData={projectData} />
         ))}
       </section>
 
-      <header id="digital_arts_projects">Digital Arts Projects</header>
+      <header id="projects">Computer Science Projects</header>
       <section className="projects section_frame" aria-live="polite">
-        {digitalArtProjects.map(({ projectId, projectData }) => (
+        {computerScienceProjects.map(({ projectId, projectData }) => (
           <ProjectCard key={projectId} projectId={projectId} projectData={projectData} />
         ))}
       </section>
